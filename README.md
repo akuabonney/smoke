@@ -1,5 +1,5 @@
 # smoke
-Telebot
+muzikiBot
 
 
     Requirements 
