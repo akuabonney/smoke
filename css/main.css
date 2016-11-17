@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "exo";
+	src:url(../fonts/Exo.otf) format("truetype");
+}
+body{
+	margin: 0;
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: "exo";
+}
+
+#welbx{
+	width: 260px;
+	height: 260px;
+	margin: 200px auto;
+	margin-right: 475px;
+}
+
+#welbx button{
+	width: 100%;
+    color: #ffffff;
+    height: 260px;
+    font-family: "exo";
+    border: 5px solid rgba(35, 35, 35, 0.29);
+    font-size: 24px;
+    animation: color-animation 25s infinite linear alternate, border-animation  1.5s infinite linear alternate;
+    /*animation: border-animation  25s infinite linear alternate;*/
+    border-radius: 180px;
+}
+
+@keyframes border-animation {
+	0% {
+       border-width: 10px;
+    }
+    20% {
+       border-width: 15px;
+    }
+    40% {
+       border-width: 20px;
+    }
+    60% {
+       border-width: 25px;
+    }
+    80% {
+       border-width: 30px;
+    }
+    100% {
+       border-width: 35px;
+    }
+}
+
+ @keyframes color-animation {
+    0% {
+       background: #de0000;
+    }
+    10% {
+       background: #dea100;
+    }
+   /* 20% {
+       background: #95de00;
+    }
+    30% {
+       background: #00de75;
+    }
+    40% {
+       background: #00c2de;
+    }
+    50% {
+       background: #005bde;
+    }
+    60% {
+       background: #7c00de;
+    }
+    70% {
+       background: #c400de;
+    }*/
+    80% {
+       background: #de009c;
+    }
+    90% {
+       background: #de005f;
+    }
+    100% {
+       background: #de0000;
+    } 
+ }
+
+/*.block {
+   width: 100%;
+   height: 100%;
+   animation: color-animation 3s infinite linear alternate;
+}*/
