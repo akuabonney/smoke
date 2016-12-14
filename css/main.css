@@ -9,7 +9,144 @@ body{
 	background-attachment: fixed;
 	font-family: "exo";
 }
+.chtlinebx{
+  float: left;
+  width: 100%;
+  min-height: 30px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
 
+.chtxtbx{
+  min-height:20px;
+  padding: 10px;
+}
+.botxt{
+  float: left;
+}
+.usertxt{
+  float: right;
+  text-align: right;
+}
+
+.botchtbx{
+  float: left;
+  max-width: 60%;
+  min-width: 10%;
+  border-radius: 5px;
+  margin-left: 10px;
+  min-height: 40px;
+  background-color: #a3d0fd;
+}
+.userchtbx{
+  float: right;
+  max-width: 60%;
+  min-width: 2%;
+  border-radius: 5px;
+  margin-right: 10px;
+  min-height: 40px;
+  background-color: #d6d6d6;
+}
+
+.cmdx{
+  float: left;
+  width: 100%;
+  margin-top: 12px;
+}
+.commandbx{
+  float: left;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  margin-left: 10px;
+  color: #716c6c;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+input[type="text"]{
+  float: left;
+  width: 520px;
+  font-size: 15px;
+  padding-left: 5px;
+  border-radius: 5px;
+  height: 50px;
+  margin: 0px 10px;
+  border: 4px solid #dadada;
+}
+
+#buttx:focus{
+  outline:none;
+}
+.formcnt{
+  float: left;
+  width: 100%;
+  height: 560px;
+}
+#sendbt{
+  float: right;
+  margin-right: 10px;
+  border: 5px solid rgba(0, 103, 206, 0.59);
+  background-color: #0080ff;
+  width: 160px;
+  border-radius: 2px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16px;
+  height: 50px;
+}
+#actiontolbx{
+  float: left;
+  width: 100%;
+  height: 50px;
+}
+#treadbx{
+  float: left;
+  width: 790px;
+  height: 490px;
+  border: 1px solid rgba(204, 204, 204, 0.27);
+  background-color: rgba(249, 249, 249, 0.78);
+  margin: 10px 5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.closex{
+  color: #ffffff;
+  text-align: center;
+  margin-top: 4px;
+  width: 100%;
+}
+.closebx{
+  float: right;
+  width: 50px;
+  font-size: 20px;
+  cursor: pointer;
+  height: 30px;
+  background-color: #f75151;
+}
+#cttopbx{
+  float: left;
+  width: 100%;
+  height: 30px;
+  background-color: rgba(197, 197, 197, 0.55);
+}
+#chatwindowbx{
+  float: left;
+  width: 100%;
+  display: none;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.63);
+}
+#chatareabx{
+  width: 800px;
+  display: none;
+  height: 600px;
+  background-color: #ffffff;
+  margin: 4% auto;
+}
 #welbx{
 	width: 260px;
 	height: 260px;
@@ -57,24 +194,7 @@ body{
     10% {
        background: #dea100;
     }
-   /* 20% {
-       background: #95de00;
-    }
-    30% {
-       background: #00de75;
-    }
-    40% {
-       background: #00c2de;
-    }
-    50% {
-       background: #005bde;
-    }
-    60% {
-       background: #7c00de;
-    }
-    70% {
-       background: #c400de;
-    }*/
+ 
     80% {
        background: #de009c;
     }
